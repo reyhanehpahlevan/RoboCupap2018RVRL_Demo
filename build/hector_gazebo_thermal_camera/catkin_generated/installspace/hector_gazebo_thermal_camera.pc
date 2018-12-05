@@ -1,0 +1,8 @@
+prefix=/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install
+
+Name: hector_gazebo_thermal_camera
+Description: Description of hector_gazebo_thermal_camera
+Version: 0.5.0
+Cflags: -I/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install/include
+Libs: -L/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install/lib 
+Requires: gazebo_plugins

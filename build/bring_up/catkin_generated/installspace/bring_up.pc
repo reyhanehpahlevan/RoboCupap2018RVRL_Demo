@@ -1,0 +1,8 @@
+prefix=/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install
+
+Name: bring_up
+Description: Description of bring_up
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install/lib 
+Requires: geometry_msgs roscpp

@@ -1,0 +1,8 @@
+prefix=/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel
+
+Name: hector_quadrotor_gazebo
+Description: Description of hector_quadrotor_gazebo
+Version: 0.3.5
+Cflags: 
+Libs: -L/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib 
+Requires: 

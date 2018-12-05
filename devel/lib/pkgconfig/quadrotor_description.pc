@@ -1,0 +1,8 @@
+prefix=/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel
+
+Name: quadrotor_description
+Description: Description of quadrotor_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib 
+Requires: 

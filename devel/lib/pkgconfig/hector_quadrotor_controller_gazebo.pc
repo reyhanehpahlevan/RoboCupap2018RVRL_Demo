@@ -1,0 +1,8 @@
+prefix=/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel
+
+Name: hector_quadrotor_controller_gazebo
+Description: Description of hector_quadrotor_controller_gazebo
+Version: 0.3.5
+Cflags: -I/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_controller_gazebo/include
+Libs: -L/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib -lhector_quadrotor_controller_gazebo
+Requires: gazebo_ros_control hector_quadrotor_interface

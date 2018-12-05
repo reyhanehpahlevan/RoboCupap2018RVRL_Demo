@@ -1,0 +1,8 @@
+prefix=/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install
+
+Name: hector_quadrotor_controllers
+Description: Description of hector_quadrotor_controllers
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install/lib -lhector_quadrotor_controllers
+Requires: roscpp
