@@ -1,8 +1,8 @@
-# Install script for directory: /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175
+# Install script for directory: /home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/s2/Desktop/RoboCupap2018RVRL_Demo/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/victim175/catkin_generated/safe_execute_install.cmake")
+  include("/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/victim175/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/victim175/catkin_generated/installspace/victim175.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/victim175/catkin_generated/installspace/victim175.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/victim175/cmake" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/victim175/catkin_generated/installspace/victim175Config.cmake"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/victim175/catkin_generated/installspace/victim175Config-version.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/victim175/catkin_generated/installspace/victim175Config.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/victim175/catkin_generated/installspace/victim175Config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/victim175" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/victim175" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175/package.xml")
 endif()
 

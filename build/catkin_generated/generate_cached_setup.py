@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/env.sh')
+code = generate_environment_script('/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/env.sh')
 
-output_filename = '/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/catkin_generated/setup_cached.sh'
+output_filename = '/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     #print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/src/set_joint_angle.cpp
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175/src/set_joint_angle.cpp
 algorithm
 -
 assert.h
 -
 set_joint_angle.h
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/src/set_joint_angle.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175/src/set_joint_angle.h
 gazebo/math/gzmath.hh
 -
 sdf/sdf.hh
@@ -22,7 +22,7 @@ termios.h
 fcntl.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/src/set_joint_angle.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175/src/set_joint_angle.h
 map
 -
 gazebo/gazebo.hh

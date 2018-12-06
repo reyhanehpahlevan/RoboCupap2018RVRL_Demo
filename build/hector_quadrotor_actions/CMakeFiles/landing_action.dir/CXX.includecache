@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/AttitudeCommand.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/AttitudeCommand.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/EnableMotors.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/EnableMotors.h
 ros/service_traits.h
 -
 hector_uav_msgs/EnableMotorsRequest.h
@@ -32,7 +32,7 @@ hector_uav_msgs/EnableMotorsRequest.h
 hector_uav_msgs/EnableMotorsResponse.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/EnableMotorsRequest.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/EnableMotorsRequest.h
 string
 -
 vector
@@ -48,7 +48,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/EnableMotorsResponse.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/EnableMotorsResponse.h
 string
 -
 vector
@@ -64,7 +64,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/LandingAction.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/LandingAction.h
 string
 -
 vector
@@ -86,7 +86,7 @@ hector_uav_msgs/LandingActionResult.h
 hector_uav_msgs/LandingActionFeedback.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/LandingActionFeedback.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/LandingActionFeedback.h
 string
 -
 vector
@@ -108,7 +108,7 @@ actionlib_msgs/GoalStatus.h
 hector_uav_msgs/LandingFeedback.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/LandingActionGoal.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/LandingActionGoal.h
 string
 -
 vector
@@ -130,7 +130,7 @@ actionlib_msgs/GoalID.h
 hector_uav_msgs/LandingGoal.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/LandingActionResult.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/LandingActionResult.h
 string
 -
 vector
@@ -152,7 +152,7 @@ actionlib_msgs/GoalStatus.h
 hector_uav_msgs/LandingResult.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/LandingFeedback.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/LandingFeedback.h
 string
 -
 vector
@@ -170,7 +170,7 @@ ros/message_operations.h
 geometry_msgs/PoseStamped.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/LandingGoal.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/LandingGoal.h
 string
 -
 vector
@@ -188,7 +188,7 @@ ros/message_operations.h
 geometry_msgs/PoseStamped.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/LandingResult.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/LandingResult.h
 string
 -
 vector
@@ -204,7 +204,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/PoseAction.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/PoseAction.h
 string
 -
 vector
@@ -226,7 +226,7 @@ hector_uav_msgs/PoseActionResult.h
 hector_uav_msgs/PoseActionFeedback.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/PoseActionFeedback.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/PoseActionFeedback.h
 string
 -
 vector
@@ -248,7 +248,7 @@ actionlib_msgs/GoalStatus.h
 hector_uav_msgs/PoseFeedback.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/PoseActionGoal.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/PoseActionGoal.h
 string
 -
 vector
@@ -270,7 +270,7 @@ actionlib_msgs/GoalID.h
 hector_uav_msgs/PoseGoal.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/PoseActionResult.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/PoseActionResult.h
 string
 -
 vector
@@ -292,7 +292,7 @@ actionlib_msgs/GoalStatus.h
 hector_uav_msgs/PoseResult.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/PoseFeedback.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/PoseFeedback.h
 string
 -
 vector
@@ -310,7 +310,7 @@ ros/message_operations.h
 geometry_msgs/PoseStamped.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/PoseGoal.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/PoseGoal.h
 string
 -
 vector
@@ -328,7 +328,7 @@ ros/message_operations.h
 geometry_msgs/PoseStamped.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/PoseResult.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/PoseResult.h
 string
 -
 vector
@@ -344,25 +344,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/ThrustCommand.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/YawrateCommand.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/ThrustCommand.h
 string
 -
 vector
@@ -380,7 +362,25 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_actions/include/hector_quadrotor_actions/base_action.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/YawrateCommand.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_actions/include/hector_quadrotor_actions/base_action.h
 ros/ros.h
 -
 actionlib/server/simple_action_server.h
@@ -388,11 +388,11 @@ actionlib/server/simple_action_server.h
 hector_quadrotor_interface/helpers.h
 -
 geometry_msgs/PoseStamped.h
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_actions/include/hector_quadrotor_actions/geometry_msgs/PoseStamped.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_actions/include/hector_quadrotor_actions/geometry_msgs/PoseStamped.h
 hector_uav_msgs/EnableMotors.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_actions/src/landing_action.cpp
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_actions/src/landing_action.cpp
 ros/ros.h
 -
 actionlib/client/simple_action_client.h
@@ -406,7 +406,7 @@ hector_quadrotor_interface/helpers.h
 hector_quadrotor_actions/base_action.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_interface/include/hector_quadrotor_interface/helpers.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_interface/include/hector_quadrotor_interface/helpers.h
 geometry_msgs/PoseStamped.h
 -
 sensor_msgs/Imu.h

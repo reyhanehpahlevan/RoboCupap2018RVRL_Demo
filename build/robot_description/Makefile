@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src
+CMAKE_SOURCE_DIR = /home/s2/Desktop/RoboCupap2018RVRL_Demo/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build
+CMAKE_BINARY_DIR = /home/s2/Desktop/RoboCupap2018RVRL_Demo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/CMakeFiles /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/robot_description/CMakeFiles/progress.marks
-	cd /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build && $(MAKE) -f CMakeFiles/Makefile2 robot_description/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/CMakeFiles 0
+	cd /home/s2/Desktop/RoboCupap2018RVRL_Demo/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/s2/Desktop/RoboCupap2018RVRL_Demo/build/CMakeFiles /home/s2/Desktop/RoboCupap2018RVRL_Demo/build/robot_description/CMakeFiles/progress.marks
+	cd /home/s2/Desktop/RoboCupap2018RVRL_Demo/build && $(MAKE) -f CMakeFiles/Makefile2 robot_description/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/s2/Desktop/RoboCupap2018RVRL_Demo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build && $(MAKE) -f CMakeFiles/Makefile2 robot_description/clean
+	cd /home/s2/Desktop/RoboCupap2018RVRL_Demo/build && $(MAKE) -f CMakeFiles/Makefile2 robot_description/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,17 +152,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build && $(MAKE) -f CMakeFiles/Makefile2 robot_description/preinstall
+	cd /home/s2/Desktop/RoboCupap2018RVRL_Demo/build && $(MAKE) -f CMakeFiles/Makefile2 robot_description/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build && $(MAKE) -f CMakeFiles/Makefile2 robot_description/preinstall
+	cd /home/s2/Desktop/RoboCupap2018RVRL_Demo/build && $(MAKE) -f CMakeFiles/Makefile2 robot_description/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/s2/Desktop/RoboCupap2018RVRL_Demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/s2/Desktop/RoboCupap2018RVRL_Demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

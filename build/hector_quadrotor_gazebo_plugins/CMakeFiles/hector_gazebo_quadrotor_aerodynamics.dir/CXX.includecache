@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_gazebo_plugins/include/hector_quadrotor_gazebo_plugins/gazebo_quadrotor_aerodynamics.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_gazebo_plugins/include/hector_quadrotor_gazebo_plugins/gazebo_quadrotor_aerodynamics.h
 gazebo/common/Plugin.hh
 -
 gazebo/common/Time.hh
@@ -22,7 +22,7 @@ boost/thread.hpp
 hector_quadrotor_model/quadrotor_aerodynamics.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_gazebo_plugins/src/gazebo_quadrotor_aerodynamics.cpp
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_gazebo_plugins/src/gazebo_quadrotor_aerodynamics.cpp
 hector_quadrotor_gazebo_plugins/gazebo_quadrotor_aerodynamics.h
 -
 hector_quadrotor_model/helpers.h
@@ -34,13 +34,13 @@ gazebo/physics/physics.hh
 geometry_msgs/WrenchStamped.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_model/include/hector_quadrotor_model/helpers.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_model/include/hector_quadrotor_model/helpers.h
 geometry_msgs/Wrench.h
 -
 boost/range/iterator_range.hpp
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_model/include/hector_quadrotor_model/quadrotor_aerodynamics.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_model/include/hector_quadrotor_model/quadrotor_aerodynamics.h
 geometry_msgs/Quaternion.h
 -
 geometry_msgs/Twist.h

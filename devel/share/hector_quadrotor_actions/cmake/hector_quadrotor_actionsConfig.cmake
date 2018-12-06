@@ -67,14 +67,14 @@ set(hector_quadrotor_actions_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(hector_quadrotor_actions_SOURCE_PREFIX /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_actions)
-  set(hector_quadrotor_actions_DEVEL_PREFIX /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel)
+  set(hector_quadrotor_actions_SOURCE_PREFIX /home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_actions)
+  set(hector_quadrotor_actions_DEVEL_PREFIX /home/s2/Desktop/RoboCupap2018RVRL_Demo/devel)
   set(hector_quadrotor_actions_INSTALL_PREFIX "")
   set(hector_quadrotor_actions_PREFIX ${hector_quadrotor_actions_DEVEL_PREFIX})
 else()
   set(hector_quadrotor_actions_SOURCE_PREFIX "")
   set(hector_quadrotor_actions_DEVEL_PREFIX "")
-  set(hector_quadrotor_actions_INSTALL_PREFIX /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install)
+  set(hector_quadrotor_actions_INSTALL_PREFIX /home/s2/Desktop/RoboCupap2018RVRL_Demo/install)
   set(hector_quadrotor_actions_PREFIX ${hector_quadrotor_actions_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(hector_quadrotor_actions_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_actions/include " STREQUAL " ")
+if(NOT "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_actions/include " STREQUAL " ")
   set(hector_quadrotor_actions_INCLUDE_DIRS "")
-  set(_include_dirs "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_actions/include")
+  set(_include_dirs "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_actions/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadroto
         message(FATAL_ERROR "Project 'hector_quadrotor_actions' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'hector_quadrotor_actions' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_actions/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'hector_quadrotor_actions' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_actions/${idir}'.  ${_report}")
     endif()
     _list_append_unique(hector_quadrotor_actions_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

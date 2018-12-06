@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_quadrotor_pose_estimation.dir/src/main.cpp.o"
-  "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation.pdb"
-  "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation"
+  "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation.pdb"
+  "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation"
 )
 
 # Per-language clean rules from dependency scanning.

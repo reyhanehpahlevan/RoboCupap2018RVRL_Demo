@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_gazebo_plugins/include/hector_gazebo_plugins/reset_plugin.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_gazebo_plugins/include/hector_gazebo_plugins/reset_plugin.h
 gazebo/common/Plugin.hh
 -
 ros/ros.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_gazebo_plugins/src/reset_plugin.cpp
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_gazebo_plugins/src/reset_plugin.cpp
 hector_gazebo_plugins/reset_plugin.h
 -
 gazebo/common/Events.hh

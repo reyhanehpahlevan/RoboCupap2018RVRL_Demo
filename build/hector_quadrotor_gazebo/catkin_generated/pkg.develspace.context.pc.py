@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "hector_quadrotor_gazebo"
-PROJECT_SPACE_DIR = "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel"
+PROJECT_SPACE_DIR = "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel"
 PROJECT_VERSION = "0.3.5"

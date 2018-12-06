@@ -1,8 +1,8 @@
-# Install script for directory: /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/bring_up
+# Install script for directory: /home/s2/Desktop/RoboCupap2018RVRL_Demo/src/bring_up
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/s2/Desktop/RoboCupap2018RVRL_Demo/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/bring_up/catkin_generated/installspace/bring_up.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/bring_up/catkin_generated/installspace/bring_up.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bring_up/cmake" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/bring_up/catkin_generated/installspace/bring_upConfig.cmake"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/bring_up/catkin_generated/installspace/bring_upConfig-version.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/bring_up/catkin_generated/installspace/bring_upConfig.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/bring_up/catkin_generated/installspace/bring_upConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bring_up" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/bring_up/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bring_up" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/bring_up/package.xml")
 endif()
 

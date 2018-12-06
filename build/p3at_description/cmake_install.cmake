@@ -1,8 +1,8 @@
-# Install script for directory: /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/p3at_description
+# Install script for directory: /home/s2/Desktop/RoboCupap2018RVRL_Demo/src/p3at_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/s2/Desktop/RoboCupap2018RVRL_Demo/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,25 +33,25 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/p3at_description/catkin_generated/installspace/p3at_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/p3at_description/catkin_generated/installspace/p3at_description.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p3at_description/cmake" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/p3at_description/catkin_generated/installspace/p3at_descriptionConfig.cmake"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/p3at_description/catkin_generated/installspace/p3at_descriptionConfig-version.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/p3at_description/catkin_generated/installspace/p3at_descriptionConfig.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/p3at_description/catkin_generated/installspace/p3at_descriptionConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p3at_description" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/p3at_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p3at_description" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/p3at_description/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p3at_description" TYPE DIRECTORY FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/p3at_description/urdf"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/p3at_description/launch"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/p3at_description/meshes"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/p3at_description/urdf"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/p3at_description/launch"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/p3at_description/meshes"
     )
 endif()
 

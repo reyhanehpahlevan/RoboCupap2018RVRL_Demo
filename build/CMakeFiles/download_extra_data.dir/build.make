@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src
+CMAKE_SOURCE_DIR = /home/s2/Desktop/RoboCupap2018RVRL_Demo/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build
+CMAKE_BINARY_DIR = /home/s2/Desktop/RoboCupap2018RVRL_Demo/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/s2/Desktop/RoboCupap2018RVRL_Demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s2/Desktop/RoboCupap2018RVRL_Demo/src /home/s2/Desktop/RoboCupap2018RVRL_Demo/src /home/s2/Desktop/RoboCupap2018RVRL_Demo/build /home/s2/Desktop/RoboCupap2018RVRL_Demo/build /home/s2/Desktop/RoboCupap2018RVRL_Demo/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

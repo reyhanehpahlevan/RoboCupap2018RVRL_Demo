@@ -1,8 +1,8 @@
-# Install script for directory: /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs
+# Install script for directory: /home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/s2/Desktop/RoboCupap2018RVRL_Demo/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,126 +34,126 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/msg" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/Altimeter.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/AttitudeCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/Compass.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/ControllerState.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/HeadingCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/HeightCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/MotorCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/MotorPWM.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/MotorStatus.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/PositionXYCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/RawImu.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/RawMagnetic.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/RawRC.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/RC.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/RuddersCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/ServoCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/Supply.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/ThrustCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/VelocityXYCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/VelocityZCommand.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/msg/YawrateCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/Altimeter.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/AttitudeCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/Compass.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/ControllerState.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/HeadingCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/HeightCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/MotorCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/MotorPWM.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/MotorStatus.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/PositionXYCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/RawImu.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/RawMagnetic.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/RawRC.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/RC.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/RuddersCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/ServoCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/Supply.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/ThrustCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/VelocityXYCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/VelocityZCommand.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/msg/YawrateCommand.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/srv" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/srv/EnableMotors.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/srv" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/srv/EnableMotors.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/action" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/action/Pose.action"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/action/Landing.action"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/action/Takeoff.action"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/action/Pose.action"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/action/Landing.action"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/action/Takeoff.action"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/msg" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/PoseAction.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/PoseActionResult.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/PoseGoal.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/PoseResult.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/PoseFeedback.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/PoseAction.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/PoseActionResult.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/PoseGoal.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/PoseResult.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/PoseFeedback.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/msg" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/LandingAction.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/LandingActionResult.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/LandingGoal.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/LandingResult.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/LandingFeedback.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/LandingAction.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/LandingActionResult.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/LandingGoal.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/LandingResult.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/LandingFeedback.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/msg" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/TakeoffAction.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/TakeoffAction.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/cmake" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/cmake" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgs-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/roseus/ros/hector_uav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/roseus/ros/hector_uav_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/common-lisp/ros/hector_uav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/common-lisp/ros/hector_uav_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/gennodejs/ros/hector_uav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/gennodejs/ros/hector_uav_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib/python2.7/dist-packages/hector_uav_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib/python2.7/dist-packages/hector_uav_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib/python2.7/dist-packages/hector_uav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib/python2.7/dist-packages/hector_uav_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/cmake" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/cmake" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgs-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs/cmake" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgsConfig.cmake"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgsConfig-version.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgsConfig.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/hector_uav_msgs/catkin_generated/installspace/hector_uav_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_uav_msgs" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hector_uav_msgs" TYPE DIRECTORY FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_uav_msgs/include/hector_uav_msgs/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hector_uav_msgs" TYPE DIRECTORY FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_uav_msgs/include/hector_uav_msgs/")
 endif()
 

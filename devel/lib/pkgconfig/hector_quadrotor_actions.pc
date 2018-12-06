@@ -1,8 +1,8 @@
-prefix=/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel
+prefix=/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel
 
 Name: hector_quadrotor_actions
 Description: Description of hector_quadrotor_actions
 Version: 0.0.0
-Cflags: -I/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_actions/include
-Libs: -L/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib 
+Cflags: -I/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_actions/include
+Libs: -L/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib 
 Requires: roscpp

@@ -67,14 +67,14 @@ set(victim175_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(victim175_SOURCE_PREFIX /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175)
-  set(victim175_DEVEL_PREFIX /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel)
+  set(victim175_SOURCE_PREFIX /home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175)
+  set(victim175_DEVEL_PREFIX /home/s2/Desktop/RoboCupap2018RVRL_Demo/devel)
   set(victim175_INSTALL_PREFIX "")
   set(victim175_PREFIX ${victim175_DEVEL_PREFIX})
 else()
   set(victim175_SOURCE_PREFIX "")
   set(victim175_DEVEL_PREFIX "")
-  set(victim175_INSTALL_PREFIX /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install)
+  set(victim175_INSTALL_PREFIX /home/s2/Desktop/RoboCupap2018RVRL_Demo/install)
   set(victim175_PREFIX ${victim175_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(victim175_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/include " STREQUAL " ")
+if(NOT "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175/include " STREQUAL " ")
   set(victim175_INCLUDE_DIRS "")
-  set(_include_dirs "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/include")
+  set(_include_dirs "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/inclu
         message(FATAL_ERROR "Project 'victim175' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'victim175' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'victim175' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175/${idir}'.  ${_report}")
     endif()
     _list_append_unique(victim175_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

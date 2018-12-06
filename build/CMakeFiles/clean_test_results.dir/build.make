@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src
+CMAKE_SOURCE_DIR = /home/s2/Desktop/RoboCupap2018RVRL_Demo/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build
+CMAKE_BINARY_DIR = /home/s2/Desktop/RoboCupap2018RVRL_Demo/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/test_results
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/s2/Desktop/RoboCupap2018RVRL_Demo/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/s2/Desktop/RoboCupap2018RVRL_Demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s2/Desktop/RoboCupap2018RVRL_Demo/src /home/s2/Desktop/RoboCupap2018RVRL_Demo/src /home/s2/Desktop/RoboCupap2018RVRL_Demo/build /home/s2/Desktop/RoboCupap2018RVRL_Demo/build /home/s2/Desktop/RoboCupap2018RVRL_Demo/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

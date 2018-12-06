@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_gazebo_plugins/srv/SetBias.srv"
+services_str = "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_gazebo_plugins/srv/SetBias.srv"
 pkg_name = "hector_gazebo_plugins"
 dependencies_str = "geometry_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

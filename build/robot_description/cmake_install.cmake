@@ -1,8 +1,8 @@
-# Install script for directory: /home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/robot_description
+# Install script for directory: /home/s2/Desktop/RoboCupap2018RVRL_Demo/src/robot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/s2/Desktop/RoboCupap2018RVRL_Demo/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/robot_description/catkin_generated/installspace/robot_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/robot_description/catkin_generated/installspace/robot_description.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_description/cmake" TYPE FILE FILES
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/robot_description/catkin_generated/installspace/robot_descriptionConfig.cmake"
-    "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/robot_description/catkin_generated/installspace/robot_descriptionConfig-version.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/robot_description/catkin_generated/installspace/robot_descriptionConfig.cmake"
+    "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/robot_description/catkin_generated/installspace/robot_descriptionConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_description" TYPE FILE FILES "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/robot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_description" TYPE FILE FILES "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/robot_description/package.xml")
 endif()
 

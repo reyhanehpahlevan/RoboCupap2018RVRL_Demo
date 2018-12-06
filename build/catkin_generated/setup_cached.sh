@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/s2/Desktop/RoboCupap2018RVRL_Demo/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/s2/Desktop/RoboCupap2018RVRL_Demo/src:$ROS_PACKAGE_PATH"

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o"
-  "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib/libhector_servo_plugin.pdb"
-  "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib/libhector_servo_plugin.so"
+  "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib/libhector_servo_plugin.pdb"
+  "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib/libhector_servo_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

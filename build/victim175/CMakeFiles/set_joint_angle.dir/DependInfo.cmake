@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/src/set_joint_angle.cpp" "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/build/victim175/CMakeFiles/set_joint_angle.dir/src/set_joint_angle.cpp.o"
+  "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175/src/set_joint_angle.cpp" "/home/s2/Desktop/RoboCupap2018RVRL_Demo/build/victim175/CMakeFiles/set_joint_angle.dir/src/set_joint_angle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/victim175/include"
+  "/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/victim175/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/kinetic/include/opencv-3.3.1-dev"

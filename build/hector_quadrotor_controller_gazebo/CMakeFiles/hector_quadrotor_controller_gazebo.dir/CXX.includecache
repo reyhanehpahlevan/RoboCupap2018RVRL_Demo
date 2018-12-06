@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/AttitudeCommand.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/AttitudeCommand.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/EnableMotors.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/EnableMotors.h
 ros/service_traits.h
 -
 hector_uav_msgs/EnableMotorsRequest.h
@@ -32,7 +32,7 @@ hector_uav_msgs/EnableMotorsRequest.h
 hector_uav_msgs/EnableMotorsResponse.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/EnableMotorsRequest.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/EnableMotorsRequest.h
 string
 -
 vector
@@ -48,7 +48,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/EnableMotorsResponse.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/EnableMotorsResponse.h
 string
 -
 vector
@@ -64,25 +64,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/MotorCommand.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/MotorStatus.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/MotorCommand.h
 string
 -
 vector
@@ -100,7 +82,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/ThrustCommand.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/MotorStatus.h
 string
 -
 vector
@@ -118,7 +100,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/include/hector_uav_msgs/YawrateCommand.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/ThrustCommand.h
 string
 -
 vector
@@ -136,7 +118,25 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_controller_gazebo/include/hector_quadrotor_controller_gazebo/quadrotor_hardware_gazebo.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/include/hector_uav_msgs/YawrateCommand.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_controller_gazebo/include/hector_quadrotor_controller_gazebo/quadrotor_hardware_gazebo.h
 ros/node_handle.h
 -
 gazebo_ros_control/robot_hw_sim.h
@@ -156,7 +156,7 @@ hector_uav_msgs/MotorStatus.h
 hector_uav_msgs/EnableMotors.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_controller_gazebo/src/quadrotor_hardware_gazebo.cpp
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_controller_gazebo/src/quadrotor_hardware_gazebo.cpp
 hector_quadrotor_controller_gazebo/quadrotor_hardware_gazebo.h
 -
 geometry_msgs/WrenchStamped.h
@@ -164,7 +164,7 @@ geometry_msgs/WrenchStamped.h
 pluginlib/class_list_macros.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_interface/include/hector_quadrotor_interface/handles.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_interface/include/hector_quadrotor_interface/handles.h
 geometry_msgs/Pose.h
 -
 geometry_msgs/Twist.h
@@ -186,7 +186,7 @@ hector_uav_msgs/YawrateCommand.h
 hector_uav_msgs/ThrustCommand.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_interface/include/hector_quadrotor_interface/helpers.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_interface/include/hector_quadrotor_interface/helpers.h
 geometry_msgs/PoseStamped.h
 -
 sensor_msgs/Imu.h
@@ -222,7 +222,7 @@ tf2/LinearMath/Quaternion.h
 tf2_geometry_msgs/tf2_geometry_msgs.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_interface/include/hector_quadrotor_interface/limiters.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_interface/include/hector_quadrotor_interface/limiters.h
 ros/node_handle.h
 -
 limits
@@ -242,7 +242,7 @@ hector_uav_msgs/ThrustCommand.h
 hector_uav_msgs/YawrateCommand.h
 -
 
-/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/src/hector_quadrotor_interface/include/hector_quadrotor_interface/quadrotor_interface.h
+/home/s2/Desktop/RoboCupap2018RVRL_Demo/src/hector_quadrotor_interface/include/hector_quadrotor_interface/quadrotor_interface.h
 hardware_interface/internal/hardware_resource_manager.h
 -
 hector_quadrotor_interface/handles.h

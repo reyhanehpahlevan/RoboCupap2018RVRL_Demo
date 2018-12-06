@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o"
-  "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib/libhector_gazebo_quadrotor_simple_controller.pdb"
-  "/home/s1/catkin_ws/src/RoboCupap2018RVRL_Demo-master/devel/lib/libhector_gazebo_quadrotor_simple_controller.so"
+  "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib/libhector_gazebo_quadrotor_simple_controller.pdb"
+  "/home/s2/Desktop/RoboCupap2018RVRL_Demo/devel/lib/libhector_gazebo_quadrotor_simple_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.
