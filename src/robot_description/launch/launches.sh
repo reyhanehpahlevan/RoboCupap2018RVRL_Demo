@@ -9,11 +9,12 @@ ys=(0 0 0 0)
 #			</change this part>
 CATKIN_SHELL=bash
 path="$(pwd)"
-p1="$(dirname "$path")"
-p2="$(dirname "$p1")"
-p3="$(dirname "$p2")"
+for (( i=0; i<3; i++))
+do
+	path="$(dirname "$path")"
+done
 # source setup.sh from same directory as this file
-_CATKIN_SETUP_DIR="$p3/devel"
+_CATKIN_SETUP_DIR="$path/devel"
 . "$_CATKIN_SETUP_DIR/setup.sh"
 ending=$starting+$number_of_robots-1
 for (( i=$starting; i<=$ending; i++))
