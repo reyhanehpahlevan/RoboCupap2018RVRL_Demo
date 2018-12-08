@@ -7,14 +7,18 @@ number_of_robots=4
 xs=(0 10 20 30)
 ys=(0 0 0 0)
 #			</change this part>
-
-
-
-source ./../../../devel/setup.bash
+CATKIN_SHELL=bash
+path="$(pwd)"
+p1="$(dirname "$path")"
+p2="$(dirname "$p1")"
+p3="$(dirname "$p2")"
+# source setup.sh from same directory as this file
+_CATKIN_SETUP_DIR="$p3/devel"
+. "$_CATKIN_SETUP_DIR/setup.sh"
 ending=$starting+$number_of_robots-1
 for (( i=$starting; i<=$ending; i++))
 do
 	echo "$name_space$i"
 	echo "${xs[$i]},${ys[$i]}"
-	roslaunch robot_description robot_spawn robot_name:=/"$name_space$i" xcoordinate:=${xs[$i]} ycoordinate:=${ys[$i]}
+	roslaunch "$(pwd)/robot_spawn.launch" robot_name:=/"$name_space$i" xcoordinate:=${xs[$i]} ycoordinate:=${ys[$i]}
 done
