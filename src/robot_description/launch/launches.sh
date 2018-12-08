@@ -21,5 +21,5 @@ for (( i=$starting; i<=$ending; i++))
 do
 	echo "$name_space$i"
 	echo "${xs[$i]},${ys[$i]}"
-	roslaunch "$(pwd)/robot_spawn.launch" robot_name:=/"$name_space$i" xcoordinate:=${xs[$i]} ycoordinate:=${ys[$i]}
+	roslaunch "$(pwd)/robot_spawn.launch" robot_name:=/"$name_space$i" xcoordinate:=${xs[$i]} ycoordinate:=${ys[$i]} &
 done
