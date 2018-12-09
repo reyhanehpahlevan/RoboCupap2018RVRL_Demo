@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<launch>
+  <include file="$(find robot_description)/launch/robot_spawn.launch">
+    <arg name="robot_name" value="aura1"/>
+    <arg name="xcoordinate" value="-4"/>
+    <arg name="ycoordinate" value="-37"/>
+  </include> 
+
+  <include file="$(find robot_description)/launch/robot_spawn.launch">
+    <arg name="robot_name" value="aura2"/>
+    <arg name="xcoordinate" value="-2"/>
+    <arg name="ycoordinate" value="-37"/>
+  </include>
+  <include file="$(find robot_description)/launch/robot_spawn.launch">
+    <arg name="robot_name" value="aura3"/>
+    <arg name="xcoordinate" value="-62"/>
+    <arg name="ycoordinate" value="17"/>
+  </include>
+  <include file="$(find robot_description)/launch/robot_spawn.launch">
+    <arg name="robot_name" value="aura4"/>
+    <arg name="xcoordinate" value="-55"/>
+    <arg name="ycoordinate" value="17"/>
+  </include>
+
+  <include file="$(find robot_description)/launch/robot_spawn.launch">
+    <arg name="robot_name" value="aura5"/>
+    <arg name="xcoordinate" value="45"/>
+    <arg name="ycoordinate" value="45"/>
+  </include>
+
+
+</launch>	
